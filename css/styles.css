@@ -1,0 +1,160 @@
+body{
+    font-family: "Montserrat",sans-serif;
+    text-align: center;
+}
+h1,h2,h3{
+    font-family:"Monserrat" ;
+}
+p{
+    color:#8f8f8f;
+}
+.container-padding{
+    padding:7% 15%;
+}
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section{
+    background-color: white;
+
+}
+/* nav bar */
+.nav-bar{
+    padding-bottom: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:2rem;
+}
+.nav-link  {
+    font-size: large;
+    font-weight: lighter;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.container-fluid{
+    padding: 2% 15%;
+}
+
+/* title */
+.big-heading{
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+#title button{
+    margin: 2%;
+}
+.title-cls{
+    padding-bottom: 5%;
+    text-align: left;
+}
+.title-img{
+    position: absolute;
+    right: 8%;
+}
+.dog-img{
+    width: 60%;
+    transform: rotate(20deg);
+}
+
+/* features */
+#features{
+    position: relative;
+}
+.feature-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+#features p{
+    width: 80%;
+    margin: auto;
+}
+#features .col-lg-4{
+    padding: 5% 0;
+}
+.fas{
+    color: #ef8172;
+    font-size: 2.5rem;
+    padding-bottom: 5%;
+}
+.fas:hover{
+    color: #ff4c28;
+}
+
+/* Testimonial Section */
+#testimonials {
+    background-color:#ef8172 ;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-text{
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+/* press */
+#press{
+    background-color:#ef8172 ;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing{
+    padding: 100px;
+}
+.pricing-heading{
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.pricing-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+#pricing .card{
+    margin: 5% 3%;
+}
+.pricing-fee{
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+/* cta */
+#cta h1{
+    padding-bottom: 7%;
+}
+#cta button{
+    margin: 1%;
+}
+
+/* footer */
+.social-icon{
+    color: black;
+    font-size: 1rem;
+    margin: 10% 1% 0;
+    padding-bottom: 1%;
+}
+@media (max-width: 1024px){
+    .title-cls{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+    }
+    .dog-img{
+        transform: rotate(0);
+    }
+}
